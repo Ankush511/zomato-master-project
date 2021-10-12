@@ -31,8 +31,8 @@ var GoogleStrategy = _passportGoogleOauth["default"].Strategy;
 
 var _default = function _default(passport) {
   passport.use(new GoogleStrategy({
-    clientID: "448325328376-0noqmrddvmqm9lp1jin5c42jjna76ldc.apps.googleusercontent.com",
-    clientSecret: "_ROue0E0m9cfiC6bLEJ6iMCz",
+    clientID: "982470435364-jhka15s802k9m1n8ja8n3beptacsmjsu.apps.googleusercontent.com",
+    clientSecret: "_GOCSPX-FuiRTlfY9hEvrZAzqeY0ur5QY82_",
     callbackURL: "http://localhost:4000/auth/google/callback"
   }, /*#__PURE__*/function () {
     var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(accessToken, refreshToken, profile, done) {
