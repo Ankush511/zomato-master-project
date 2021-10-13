@@ -31,12 +31,12 @@ const Checkout = () => {
 
   const payNow = () => {
     let options = {
-      key: "rzp_test_RNvW44vJHiXg1b",
+      key: "rzp_test_EvTtQdG4x6tnDp",
       amount:
         reduxStateCart.reduce((acc, curVal) => acc + curVal.totalPrice, 0) *
         100,
       currency: "INR",
-      name: "zomato Clone",
+      name: "Zomato Clone",
       description: "Food Payment",
       image:
         "https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png",
